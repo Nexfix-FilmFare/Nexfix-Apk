@@ -1,86 +1,83 @@
-# Nexfix APK
+# Nexfix — Stream Movies, TV Shows & Sports
 
-Official release repository for the **Nexfix** streaming app (Android).
+Free Android APK. Watch everything instantly, no ads, no cap.
+
+**Download:** [Nexfix v1.0.1 APK](https://github.com/Nexfix-FilmFare/Nexfix-Apk/releases/download/v1.0.1/app-release.apk) (~194 MB)
+
+Version 1.0.1 · Package `com.example.nexfix` · Android 7.1+
 
 ---
 
-## App Details
+## Install (1 minute)
 
-| Field | Value |
+1. Tap **Download** above → `app-release.apk` saves to your phone
+2. Open the APK from your notifications or Files app
+3. If Android warns **"Install blocked"** → tap **Settings** → turn on **Allow from this source** (one-time) → go back → **Install**
+4. Tap **Open** — done
+
+> Installing over an older Nexfix? Just install again — your login and data stay.
+
+---
+
+## How to Use
+
+### 1. Sign in (first launch)
+Choose **Google** or **email** to sign in. Your profiles, watchlist and continue-watching follow your account on every device.
+
+### 2. Find something to watch
+- **Home** — trending picks and new releases
+- **Movies / TV Shows / Sports** — full library by category
+- **Search** — type any title
+- Bottom tabs: Home · Movies · TV Shows · Sports · Search · My Space
+
+### 3. Play
+Tap any title → **Play**. Inside the player:
+
+| Control | What it does |
 |---|---|
-| App Name | Nexfix |
-| Package / Serial | `com.example.nexfix` |
-| Version | **1.0.1** (versionCode 101) |
-| Platform | Android (iOS planned) |
-| Min SDK | 25 (Android 7.1) |
-| Target SDK | 35 (Android 15) |
-| Build | Flutter / Dart |
-| APK Size | ~194 MB (universal release) |
-| Architecture | arm64-v8a + armeabi-v7a (universal) |
-| License | Proprietary — unauthorized distribution not permitted |
+| ⏩ **Skip Intro** | Jumps past the intro the moment it starts |
+| ⚡ **Servers** | A server dies? It auto-fails to the next one — or tap to switch yourself |
+| ⚙ **Settings** | Quality (up to 4K), subtitles, audio track, playback speed, screen size |
+| 🔒 **Lock** | Locks the screen so taps don't interrupt playback |
+
+Position and resume are remembered automatically.
+
+### 4. My Space
+- **Watchlist** — save for later
+- **Continue Watching** — pick up where you stopped
+- **Downloads** — available titles for offline
+- **Profiles** — switch or set up a kids profile
+- **Purchases/Rent** — your history lives here
 
 ---
 
-## Download
+## What's Fixed in v1.0.1
 
-Latest signed release: **[Nexfix v1.0.1 — app-release.apk](https://github.com/Nexfix-FilmFare/Nexfix-Apk/releases/download/v1.0.1/app-release.apk)**
-
-All releases: **[Releases](https://github.com/Nexfix-FilmFare/Nexfix-Apk/releases/latest)** page.
-
-- Download `app-release.apk`
-- Install on your device (enable *Install unknown apps* for your browser/file manager if prompted)
-- Launch **Nexfix**
+- No more crashes while playing — errors are caught and logged instead of killing the app
+- Movie servers list now loads (stream fallback bug fixed)
+- Smoother playback — built-in stream cache kills mid-scene stutters
+- Auto server failover on expired/broken links
 
 ---
 
-## Version Detail
+## Troubleshooting
 
-### v1.0.1 (versionCode 101) — latest
+**"Install blocked for your phone"** → Settings → *Install unknown apps* → allow your browser/files app → retry.
 
-- Stability: global crash guards — uncaught player/stream errors no longer kill the app
-- Playback: fixed movie server list staying empty (stream API failure now falls back to the legacy route)
-- Playback: mpv byte-level stream cache enabled — smoother playback, no mid-scene stutters
-- Failsafe: automatic server failover on expired/broken links
+**Video won't play / spins** → tap ⚡ Servers → pick another one. It also switches automatically.
 
-### v1.0.0 (versionCode 100)
+**Audio but no video / black screen** → ⚙ Settings → change quality to 1080p (some 4K/HEVC links are device-dependent).
 
-- Initial public release
-
----
-
-## Publishing a Release
-
-### Android (APK)
-
-```bash
-flutter clean
-flutter pub get
-flutter build apk --release
-```
-
-The output lands at `build/app/outputs/flutter-apk/app-release.apk`. Publish it with GitHub CLI:
-
-```bash
-gh release create v<VERSION> \
-  --title "Nexfix v<VERSION>" \
-  --notes "Release notes here" \
-  build/app/outputs/flutter-apk/app-release.apk
-```
-
-### iOS (IPA)
-
-iOS builds require macOS with Xcode 15+:
-
-```bash
-flutter build ipa --release
-```
-
-Upload the exported `.ipa` to **App Store Connect** via Xcode or `xcrun altool`, then distribute through **TestFlight / App Store**. GitHub Releases can also carry the `.ipa` the same way as the APK.
+**Everything looks broken after update** → clear app cache (Settings → Apps → Nexfix → Clear Cache). Your login stays.
 
 ---
 
 ## Requirements
 
 - Android 7.1 or newer
-- Stable internet connection
-- ~300 MB free storage (install + cache)
+- ~300 MB free storage
+- Stable internet (Wi-Fi or 4G+)
+
+---
+
+**Repo:** [Nexfix-FilmFare/Nexfix-Apk](https://github.com/Nexfix-FilmFare/Nexfix-Apk) · All releases: [Releases](https://github.com/Nexfix-FilmFare/Nexfix-Apk/releases)
