@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎬 Nexfix
+<img src="media/logo.png" width="360" alt="Nexfix — Movies, TV Shows & Sports" />
 
 **Movies · TV Shows · Sports — all in one app.**
 
@@ -9,6 +9,8 @@ Stream everything free. No ads. No limits.
 [⬇️ **Download Nexfix v1.0.1**](https://github.com/Nexfix-FilmFare/Nexfix-Apk/releases/download/v1.0.1/Nexfix-1.0.1-arm64-v8a.apk)
 
 *Android 7.1+ · ~87 MB · Signed release*
+
+🌐 **Watch on PC/Laptop — no install needed:** [**nexfix.me**](https://nexfix.me)
 
 [All Releases](https://github.com/Nexfix-FilmFare/Nexfix-Apk/releases) · [Report an Issue](https://github.com/Nexfix-FilmFare/Nexfix-Apk/issues)
 
