@@ -1,83 +1,88 @@
-# Nexfix — Stream Movies, TV Shows & Sports
+<div align="center">
 
-Free Android APK. Watch everything instantly, no ads, no cap.
+# 🎬 Nexfix
 
-**Download:** [Nexfix v1.0.1 APK](https://github.com/Nexfix-FilmFare/Nexfix-Apk/releases/download/v1.0.1/app-release.apk) (~194 MB)
+**Movies · TV Shows · Sports — all in one app.**
 
-Version 1.0.1 · Package `com.example.nexfix` · Android 7.1+
+Stream everything free. No ads. No limits.
 
----
+[⬇️ **Download Nexfix v1.0.1**](https://github.com/Nexfix-FilmFare/Nexfix-Apk/releases/download/v1.0.1/Nexfix-1.0.1-arm64-v8a.apk)
 
-## Install (1 minute)
+*Android 7.1+ · ~87 MB · Signed release*
 
-1. Tap **Download** above → `app-release.apk` saves to your phone
-2. Open the APK from your notifications or Files app
-3. If Android warns **"Install blocked"** → tap **Settings** → turn on **Allow from this source** (one-time) → go back → **Install**
-4. Tap **Open** — done
+[All Releases](https://github.com/Nexfix-FilmFare/Nexfix-Apk/releases) · [Report an Issue](https://github.com/Nexfix-FilmFare/Nexfix-Apk/issues)
 
-> Installing over an older Nexfix? Just install again — your login and data stay.
+</div>
 
 ---
 
-## How to Use
+## 📲 Install in 30 seconds
 
-### 1. Sign in (first launch)
-Choose **Google** or **email** to sign in. Your profiles, watchlist and continue-watching follow your account on every device.
+1. Tap **Download** above — the APK saves to your phone
+2. Open the file → if Android says *"Install blocked"* → **Settings → Allow from this source** → back → **Install**
+3. Open **Nexfix** → sign in with Google or email → you're in
 
-### 2. Find something to watch
-- **Home** — trending picks and new releases
-- **Movies / TV Shows / Sports** — full library by category
-- **Search** — type any title
-- Bottom tabs: Home · Movies · TV Shows · Sports · Search · My Space
+> **Old phone?** Get the [32-bit version](https://github.com/Nexfix-FilmFare/Nexfix-Apk/releases/download/v1.0.1/Nexfix-1.0.1-armeabi-v7a.apk) instead.
+> Updating from an older version? Just install over it — your login, watchlist and history stay.
 
-### 3. Play
-Tap any title → **Play**. Inside the player:
+---
 
-| Control | What it does |
+## ✨ Why you'll love it
+
+- **🚀 Instant play** — tap, and it streams. Adaptive quality up to 4K
+- **🔁 Smart servers** — if one server dies, it auto-switches to the next. You never stare at a spinner
+- **⏩ Skip Intro** — the Skip button pops up exactly when the intro starts
+- **📥 Download & watch offline** — save titles for flights and commutes
+- **👨‍👩‍👧 Profiles** — separate lists for the family, kids profile included
+- **📊 Continue Watching** — picks up right where you left off, on any device
+
+---
+
+## 🎮 How to use
+
+| You want to… | Do this |
 |---|---|
-| ⏩ **Skip Intro** | Jumps past the intro the moment it starts |
-| ⚡ **Servers** | A server dies? It auto-fails to the next one — or tap to switch yourself |
-| ⚙ **Settings** | Quality (up to 4K), subtitles, audio track, playback speed, screen size |
-| 🔒 **Lock** | Locks the screen so taps don't interrupt playback |
+| Find something to watch | **Home** for picks · **Movies / TV Shows / Sports** tabs · **Search** for a title |
+| Play | Tap any poster → **▶ Play** |
+| Skip the intro | Tap **⏩ Skip Intro** when it appears |
+| Fix a buffering stream | Tap **⚡ Servers** → pick another (or let it auto-switch) |
+| Change quality / subtitles | Tap **⚙** in the player → Quality, Subtitles, Audio, Speed |
+| Save for later | **♡ Watchlist** on any title |
+| Watch offline | **My Space → Downloads** |
+| Hand it to the kids | **My Space → Profiles → Kids** |
 
-Position and resume are remembered automatically.
-
-### 4. My Space
-- **Watchlist** — save for later
-- **Continue Watching** — pick up where you stopped
-- **Downloads** — available titles for offline
-- **Profiles** — switch or set up a kids profile
-- **Purchases/Rent** — your history lives here
+Your position, watchlist and downloads follow your account everywhere.
 
 ---
 
-## What's Fixed in v1.0.1
+## 🆕 What's new in 1.0.1
 
-- No more crashes while playing — errors are caught and logged instead of killing the app
-- Movie servers list now loads (stream fallback bug fixed)
-- Smoother playback — built-in stream cache kills mid-scene stutters
-- Auto server failover on expired/broken links
-
----
-
-## Troubleshooting
-
-**"Install blocked for your phone"** → Settings → *Install unknown apps* → allow your browser/files app → retry.
-
-**Video won't play / spins** → tap ⚡ Servers → pick another one. It also switches automatically.
-
-**Audio but no video / black screen** → ⚙ Settings → change quality to 1080p (some 4K/HEVC links are device-dependent).
-
-**Everything looks broken after update** → clear app cache (Settings → Apps → Nexfix → Clear Cache). Your login stays.
+- ✅ No more crashes while playing — player errors are contained, not fatal
+- ✅ Movie server lists load again (stream fallback fixed)
+- ✅ Smoother playback — built-in buffer kills mid-scene stutters
+- ✅ Auto-failover when a server link expires
+- 📦 Smaller APK — phones only get the code they can actually run
 
 ---
 
-## Requirements
+## 🛠 Troubleshooting
 
-- Android 7.1 or newer
-- ~300 MB free storage
-- Stable internet (Wi-Fi or 4G+)
+| Problem | Fix |
+|---|---|
+| "Install blocked" | Settings → *Install unknown apps* → allow your browser → retry |
+| Video won't play | Tap **⚡ Servers** → switch manually |
+| Black screen / audio only | ⚙ → set quality to **1080p** |
+| App feels glitchy after update | Settings → Apps → Nexfix → **Clear Cache** (your login stays) |
+| "App isn't installed" after update | Uninstall first, then install fresh APK |
 
 ---
 
-**Repo:** [Nexfix-FilmFare/Nexfix-Apk](https://github.com/Nexfix-FilmFare/Nexfix-Apk) · All releases: [Releases](https://github.com/Nexfix-FilmFare/Nexfix-Apk/releases)
+## 📋 Requirements
+
+- Android **7.1** or newer
+- ~**250 MB** free storage
+- Stable internet (Wi-Fi / 4G+)
+
+---
+
+<sub>Nexfix v1.0.1 · package `com.example.nexfix` · universal signed APK · Proprietary — redistribution not permitted.</sub>
